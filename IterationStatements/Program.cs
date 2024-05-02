@@ -41,7 +41,7 @@ namespace IterationStatements
             // Create a while loop
             // <--- While num is less than 200
             {
-                while(num <200)
+                while (num < 200)
                 {
 
                     num++;
@@ -61,9 +61,9 @@ namespace IterationStatements
             // Create a foreach loop using the collection - numbers
             //In the scope of the foreach loop, print each number in numbers
 
-            foreach(var i in numbers)
+            foreach (var number in numbers)
             {
-                Console.WriteLine($"{i}");
+                Console.WriteLine($"{number}");
 
             }
 
