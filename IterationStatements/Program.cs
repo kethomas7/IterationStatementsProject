@@ -27,7 +27,7 @@ namespace IterationStatements
                     num++;
                     numbers.Add(num);
 
-                } while (num < 10);
+                } while (num < 100);
 
                 // Increment num by 1 -DONE
                 // Then add num to the collection - numbers-DONE
